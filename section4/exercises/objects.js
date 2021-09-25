@@ -36,8 +36,7 @@ var animalNames = {
  peacocks: 20,
  lion: "Ethan",
  lions: "4",
-
-}
+};
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
@@ -77,7 +76,7 @@ var email={
   subjectLine: "Zoo Job",
   signature: "E. Mu",
   font: "Papyrus"
-}
+};
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -131,14 +130,14 @@ var emails= [
   subjectLine: "Zoo Job",
   signature: "K. Donkey",
   font: "Georgia"
-},
-{
+  },
+  {
   sentFrom: "Barnaby.ferret@gmail.com",
   bodyMessage: "Is Mr. Lion there?",
   subjectLine: "Zoo Job",
   signature: "B. Ferret",
   font: "Wingdings"
-}
+  }
 ]
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
@@ -150,20 +149,20 @@ var emails= [
   subjectLine: "Zoo Job",
   signature: "K. Donkey",
   font: "Georgia"
-},
-{
+  },
+  {
   sentFrom: "Barnaby.ferret@gmail.com",
   bodyMessage: "Is Mr. Lion there?",
   subjectLine: "Zoo Job",
   signature: "B. Ferret",
   font: "Wingdings"
-},
-{
+  },
+  {
   sentFrom: "Tony.peacock@gmail.com",
   bodyMessage: "Is Mr. Lion there?",
   subjectLine: "Zoo Job",
   signature: "T. Peacock",
   font: "arial"
-}
+  }
 ]
 console.log(emails)

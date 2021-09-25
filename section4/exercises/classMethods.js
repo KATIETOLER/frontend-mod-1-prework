@@ -37,11 +37,9 @@ class Burrito {
   changeProtein() {
     this.protein = "Soyrizo"
   }
-addTopping(newTops) {
+  addTopping(newTops) {
   this.toppings = this.toppings.push(newTops);
-
-}
-  // ADD CODE
+  }
 };
 
 var petesBurrito = new Burrito ("Pete", "steak", "black beans", ["sour Cream", "hot salsa", "cheese"]);

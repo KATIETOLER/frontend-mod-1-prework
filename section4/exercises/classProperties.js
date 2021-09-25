@@ -26,12 +26,14 @@ console.log(bullDog)
 // Prompt 2: Snack
 class Snack {
   }
+
 var chocolate = new Snack();
 console.log(chocolate);
 
 // Prompt 3: Shirt
 class Shirt {
   }
+
 var polo = new Shirt ();
 console.log(polo);
 //-------------------
@@ -53,8 +55,9 @@ class BigDog {
     this.walk = 3;
   }
 }
+
 var bullDog = new BigDog()
-console.log(bullDog)
+console.log(bullDog);
 
 // Prompt 2: Snack
 class HealthySnack {
@@ -64,12 +67,12 @@ class HealthySnack {
   this.butter = "Sun Butter";
   }
 }
+
 var celery = new HealthySnack();
 console.log(celery);
 
 // Prompt 3: Shirt
 class Top {
-
 constructor() {
   this.buttons = "No buttons";
   this.collar = "No collar";
@@ -99,8 +102,9 @@ console.log(tank);
       this.walk = walkNums;
     }
   }
+
   var beagle = new SmallDog("beagle", "kibble", 3)
-  console.log(beagle)
+  console.log(beagle);
 
   // Prompt 2: Snack
 
@@ -111,12 +115,13 @@ console.log(tank);
     this.chips = chips;
     }
   }
+
   var lays = new TrashSnack(true, "Ranch", "Lays Potato Chips");
   console.log(lays);
 
   // Prompt 3: Shirt
-  class TShirt {
 
+  class TShirt {
   constructor(buttons,collar,sleeves) {
     this.buttons = buttons;
     this.collar = collar;

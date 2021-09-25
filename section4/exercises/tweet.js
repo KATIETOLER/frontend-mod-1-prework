@@ -17,14 +17,12 @@ class Tweet {
     this.numberOfLikes = 0;
     this.comments = comments;
   }
-    addLikes ()
-  {
+    addLikes () {
     this.numberOfLikes++;
   }
     addComments(newComment) {
-
       this.comments.push(newComment);
-    }
+  }
 };
 
 var funnyTweet = new Tweet ("@MuscularSon", "Boys are back in town...", "3:05pm", 3, ["wow", "where are they"])
@@ -33,13 +31,13 @@ console.log(seriousTweet);
 console.log(funnyTweet);
 
 funnyTweet.addLikes();
-funnyTweet.addComments("Jealous")
+funnyTweet.addComments("Jealous");
 
 console.log(funnyTweet);
 
 
 seriousTweet.addLikes();
 seriousTweet.addLikes();
-seriousTweet.addComments("that's so sweet")
+seriousTweet.addComments("that's so sweet");
 
 console.log(seriousTweet);

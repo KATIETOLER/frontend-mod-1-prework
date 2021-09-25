@@ -36,7 +36,6 @@ for (var i = 0; i < foods.length; i++) {
 var single = [1,2,3,15,25,14,27,9]
 for (var i = 0; i < single.length; i++) {
   console.log(single[i] + single[i]);
-
 }
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
@@ -62,7 +61,7 @@ var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 for (var i = 0; i < ages.length; i++) {
   if (ages[i] >= 18){
     console.log( "You can vote! ");
-  } else if (ages[i] < 18){
+  } else if (ages[i] < 18) {
   console.log( "No votes for you!");
   }
 }

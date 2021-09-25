@@ -10,9 +10,6 @@ Make sure to run the file with node in your command line.
 var plants = ["alocasia", "monstera","philodendron"]
 
 
-
-
-
 //-------------------
 // PART 1: Animals: Array Syntax
 //-------------------
@@ -129,8 +126,9 @@ will be able to call an Uber.
 The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 They can call an uber if they have a charger and it is a car charger.
-
 */
+
+// Write your conditional here
 
 var percentBatteryLeft = 12;
 var hasCharger = false;
@@ -159,12 +157,6 @@ else {
   console.log("Get walkin'!");
 }
 
-
-
-
-
-
-// Write your conditional here
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.

@@ -44,4 +44,4 @@ despite taking more breaks than usual; thus my time estimations were pretty off!
 
 1. What questions do you still have about classes and/or Objects?
 ---
-I don't currently have any questions but I look forward to having more practice with methods inside of objects and just more practice in general. Sometimes I understand the concepts but until I put them into practice a lot I feel unclear in some ways.  
+I don't currently have any questions but I look forward to having more practice with methods inside of objects and just more practice in general. Sometimes I understand the concepts but until I put them into practice a lot I feel unclear in some ways. I probably just need more practice! 

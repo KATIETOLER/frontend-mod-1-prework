@@ -38,7 +38,6 @@ for (var i=0; i < 7; i++) {
 
 for (var i=0; i < 10; i++){
 console.log("She sells seashells down by the seashore");
-
 }
 
 //-------------------
@@ -50,14 +49,13 @@ console.log("She sells seashells down by the seashore");
 
 for (let i = 10; i >= 1; i--) {
 console.log( "This is a loop number: " + i );
-
-
 }
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 for (let i = 10; i >= 1; i--) {
 console.log(i)
 }
+
 // 10
 // 9
 // 8

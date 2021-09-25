@@ -15,7 +15,7 @@ Make sure to run the file with node in your command line.
 // EXAMPLE: Write a function below that, when called will log "Severus Snape" to the console
 function printName() {
   console.log("Severus Snape");
-};
+  };
 
 printName();
 printName();
@@ -29,7 +29,7 @@ printName();
 // Then, call the function 2 times.
 function ohHello () {
   console.log("Oh, Hello!")
-}
+  }
 
 
 ohHello();
@@ -46,10 +46,7 @@ var numberOne = 10;
 var numberTwo = 200;
 
 
-console.log(
-
-  calculateArea(numberOne, numberTwo)
-)
+console.log( calculateArea(numberOne, numberTwo) )
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -59,12 +56,11 @@ console.log(
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
-function greatMe(name1,name2,name3)
-{
+function greatMe(name1,name2,name3){
 console.log(name1, "I am so pleased to meet you!")
 console.log(name2, "I am so pleased to meet you!")
 console.log(name3, "I am so pleased to meet you!")
-}
+};
 
 greatMe("Jim", "Jimmy", "Jimmerson");
 
@@ -74,8 +70,8 @@ greatMe("Jim", "Jimmy", "Jimmerson");
 
 function numberArgue(a,b) {
   console.log(a+b);
-
 }
+
 numberArgue(10,22)
 numberArgue(10,33)
 numberArgue(10,77)
@@ -84,8 +80,8 @@ numberArgue(10,77)
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-function cuteDogs(pupyOne, pupyTwo) {
-console.log("The cutest puppies are of course " + pupyOne + " and who can forget " + pupyTwo + ".");
+function cuteDogs(puppyOne, pupyTwo) {
+console.log("The cutest puppies are of course " + puppyOne + " and who can forget " + puppyTwo + ".");
 }
 
 cuteDogs("Butter", "Bread");
@@ -101,13 +97,8 @@ that it is reasonable to type, but descriptive enough that others can infer the 
 
 Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 What did you name each parameter, and why?
-
-**The first function i named ohHello because it was very short, easy to rememeber and representative of what the function does.
-The second function I named numberArgue, which is definately not as good as ohHello but still descriptive. It may be a little long.
-The third one I called cuteDogs, mostly because I thought it was cute but it was also descriptive.**
-
-**The parameters I named mostly with numerical values because that seemed to make sense.
-Names like name1, pupyOne, name3, and so forth helped me keep track of which parameter was first.**
+- I named  the function cuteDogs, because I thought it would be descriptive of what I wanted to log while not being too long.
+- I named the parameters pupyOne and pupyTwo  because it was short and descriptive of where in the code I wanted them to be.
 
 
 

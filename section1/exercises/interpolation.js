@@ -16,7 +16,7 @@ var team = "Chudley Cannons";
 console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 
 // YOU DO: Read the next few lines of code...
-var numberOfCreatures = 7;
+var numberOfCreatures = 18;
 var creatures = "unicorns";
 
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
@@ -55,7 +55,7 @@ var catType = "lazy";
 var catSize = "chonk";
 var object = "ham"
 
-console.log(`The ${catType} ${catSize} cat is also a fine ${object}.`);
+console.log(`The ${catType} ${catSize} cat is also shaped like a ${object}.`);
 
 //-------------------
 // FINAL CHECK

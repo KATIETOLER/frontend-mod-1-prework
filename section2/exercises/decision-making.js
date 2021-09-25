@@ -13,9 +13,10 @@ console.log("You enter a dark room with two doors. Do you go through #1 or #2?")
 
 if (doorChoice === 1) {
   bearClothing = "hat";
-} else {
+  }
+else {
   bearClothing = "scarf";
-}
+  }
 
 console.log("You see a bear putting on a " + bearClothing);
 console.log("It looks like that " + bearClothing + " is too small for the bear, do you...");
@@ -26,13 +27,17 @@ console.log("3. Make a dash for the next room?");
 
 if (bearChoice === 2) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
-} else if (bearChoice === 2) {
+  }
+else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearChoice === 3) {
+  }
+else if (bearChoice === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
-} else {
+  }
+else
+  {
   console.log("You stay with the bear and become it's best friend!");
-}
+  }
 
 /*
 Questions

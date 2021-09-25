@@ -74,7 +74,7 @@ console.log(`I have ${healthySnacks} carrots and ${junkFoodSnacks} bags of chips
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
-
+//Yes!
 // node variables.js
 //Harry Potter's favorite Quidditch team is The Holyhead Harpies
 //24

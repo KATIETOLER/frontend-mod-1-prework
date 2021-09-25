@@ -27,7 +27,7 @@ if (weather == 'sunny') {
   console.log('coat');
 } else if (weather == 'icy') {
   console.log('yak traks');
-} else{
+} else {
   console.log('good to go!');
 }
 
@@ -45,11 +45,12 @@ var dogAge = 3;
 
 // Write your conditional here
 if (dogAge <= 2) {
-  console.log('puppy'); }
-  else if (dogAge >= 3-9)
-{ console.log('adult dog'); }
-else {
-console.log('elderly dog') }
+  console.log('puppy');
+} else if (dogAge >= 3-9) {
+  console.log('adult dog');
+} else {
+  console.log('elderly dog')
+}
 
 /*
 YOU DO:
@@ -72,12 +73,9 @@ var numQuarters = 0;
 
 // Write your conditional here
 if (numQuarters = 2 ) {
-  console.log("I have enough money for a gumball");}
-  else if (numQuarters < 2)
-{ console.log("I do not have enough money for a gumball")
-}
-else {
-
+  console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {
+  console.log("I do not have enough money for a gumball")
 }
 
 /*
@@ -103,8 +101,7 @@ console.log(yesPizza)
 
 if (yesPizza === true) {
   console.log("I can make pizza");
-}
-else {
+} else {
   console.log("Noooo I cannot make pizza!")
 }
 
@@ -114,5 +111,7 @@ else {
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
-
+I did use it! A logical operator in javascript is
+"an operator that returns
+a Boolean result that’s based on the Boolean result of one or two other expressions." [https://www.dummies.com/programming/java/logical-operators-in-java/]
 */
