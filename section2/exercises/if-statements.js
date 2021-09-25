@@ -76,6 +76,9 @@ if (numQuarters = 2 ) {
   else if (numQuarters < 2)
 { console.log("I do not have enough money for a gumball")
 }
+else {
+
+}
 
 /*
 YOU DO:
@@ -90,18 +93,20 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 4;
-var hasSauce = true;
+var cupsOfFlour = 1;
+var hasSauce = false;
 
-if ((cupsOfFlour >= 2) && (hasSauce === true))
-{
+var yesPizza = ((cupsOfFlour >=2 ) && (hasSauce === true));
+
+console.log(yesPizza)
+
+
+if (yesPizza === true) {
   console.log("I can make pizza");
 }
-else
-{
-  console.log("I cannot make pizza");
+else {
+  console.log("Noooo I cannot make pizza!")
 }
-
 
 
 
